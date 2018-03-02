@@ -1,0 +1,10 @@
+cd algorithms
+python gm.py
+python hist.py
+python hmm.py
+python lrcf.py
+python me.py
+python mkv.py
+python msq.py
+python pois.py
+python wyci.py
