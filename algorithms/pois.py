@@ -122,7 +122,6 @@ def single_task(locfile_name, input_path, output_path, save_weights=False):
         rank_true = ispUID_sorted.index(locUID)
     else:
         rank_true = len(ispUID_sorted)
-    print rank_true
     acc = hit_precision(rank_true, K_hp)
     if save_weights:
         fw = open(output_path + locfile_name, 'w')
